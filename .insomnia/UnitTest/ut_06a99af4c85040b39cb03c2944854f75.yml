@@ -1,0 +1,10 @@
+_id: ut_06a99af4c85040b39cb03c2944854f75
+type: UnitTest
+parentId: uts_c5685e81ef7948ac9d661f17c3fa120a
+modified: 1640894802812
+created: 1640894131563
+requestId: req_44cc6bd708c9436082405d3e12198e98
+name: recent changes test
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

@@ -1,0 +1,21 @@
+_id: req_44cc6bd708c9436082405d3e12198e98
+type: Request
+parentId: wrk_031983661a4646ab9ecfbb5a2100f2d6
+modified: 1640894781227
+created: 1640892681118
+url: "{{ base_url }}/recentchanges.json"
+name: Recent changes request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1640892681119
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
