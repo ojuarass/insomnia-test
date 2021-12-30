@@ -1,64 +1,24 @@
 _id: spc_93102ece88e04792881813ef23cbf252
 type: ApiSpec
 parentId: wrk_031983661a4646ab9ecfbb5a2100f2d6
-modified: 1640894810192
+modified: 1640895396119
 created: 1640891504228
 fileName: test-design.yaml
-contents: "# Specify that your document is the OpenAPI 3 format
-
+contents: |-
   openapi: 3.0.0
-
-
-  # Define high-level metadata for the API
-
   info:
-
-  \  version: 1.0.0
-
-  \  title: Open Library API
-
-  \  description: Open Library has a RESTful API
-
-  \\ 
-
-  # Specify the base URL the API can be accessed from
-
+    version: 1.0.0
+    title: Open Library API
+    description: Open Library has a RESTful API
   servers:
-
-  \  - url: http://openlibrary.org
-
-
-  # Define operations for the API. This will be where most
-
-  # of the work is done. The first route you'll be defining
-
-  # is `GET /recentchanges.json`
-
+    - url: http://openlibrary.org
   paths:
-
-  \  /recentchanges.json:
-
-  \    get:
-
-  \      responses:
-
-  \        \"200\":
-
-  \          description: an ok response.
-
-  \      summary: Recent changes.
-
-  \      tags:
-
-  \        - Recent changes
-
-  \t\t\t
-
-  \t
-
-  \t
-
-  \t\t\t
-
-  \t"
+    /recentchanges.json:
+      get:
+        responses:
+          "200":
+            description: an ok response.
+        summary: Recent changes.
+        tags:
+          - Recent changes
 contentType: yaml
